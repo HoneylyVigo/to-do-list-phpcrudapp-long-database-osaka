@@ -1,0 +1,34 @@
+.quotes {
+    font-style: italic;
+    color: black;
+  }
+
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .profile-icon img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .personal-info h2 {
+    margin-top: 20px;
+  }
+
+  .personal-info p {
+    margin-bottom: 5px;
+  }
+
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+  }
